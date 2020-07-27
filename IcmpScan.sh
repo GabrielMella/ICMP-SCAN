@@ -3,12 +3,12 @@
 echo "ICMP SCAN"
 echo "#############################################################################"
 
-echo "IP: "
+echo "Passe o IP: "
 read ip
 
 date
 echo "  "
-ping -c 3 $ip 
+ping -c 5 $ip 
 echo "  "
 
 date
